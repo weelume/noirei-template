@@ -1,0 +1,349 @@
+{
+  "$schema": "./schemas/template.schema.json",
+  "format": "git-template",
+  "formatVersion": "0.2.0",
+  "version": "1.0.0",
+  "id": "noirei",
+  "gitUrl": "https://github.com/weelume/noirei-template",
+  "name": "Noirei · 湖畔酒店",
+  "localizedNames": {
+    "en": "Noirei · Lakeside retreat"
+  },
+  "sceneId": "corporate-site",
+  "listed": false,
+  "tags": [
+    "湖畔酒店",
+    "暗色奢雅",
+    "住宿与体验",
+    "双语整站",
+    "PC / iPad / H5"
+  ],
+  "summary": "参考 Noirei 湖畔酒店的摄影叙事、暗色与暖白分区，完整呈现 28 个中英文页面。包含六种房型、六项体验、三份入住礼遇、六篇日志，以及筛选、照片灯箱、FAQ 和本地咨询演示。采用统一的Noirei品牌与 MiSans / Poppins 字体。原站照片仅供内部预览，商用前需取得授权或替换。",
+  "accentColor": "#c2a27a",
+  "cover": "assets/desktop-home.webp",
+  "screenshots": [
+    {
+      "src": "assets/desktop-home.webp",
+      "alt": "desktop 首页真实页面截图",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/desktop-rooms.webp",
+      "alt": "desktop 客房真实页面截图",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/desktop-journal.webp",
+      "alt": "desktop 日志真实页面截图",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/desktop-contact.webp",
+      "alt": "desktop 联系真实页面截图",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/tablet-home.webp",
+      "alt": "tablet 首页真实页面截图",
+      "device": "tablet",
+      "width": 834,
+      "height": 1180,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/tablet-rooms.webp",
+      "alt": "tablet 客房真实页面截图",
+      "device": "tablet",
+      "width": 834,
+      "height": 1180,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/tablet-journal.webp",
+      "alt": "tablet 日志真实页面截图",
+      "device": "tablet",
+      "width": 834,
+      "height": 1180,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/tablet-contact.webp",
+      "alt": "tablet 联系真实页面截图",
+      "device": "tablet",
+      "width": 834,
+      "height": 1180,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/mobile-home.webp",
+      "alt": "mobile 首页真实页面截图",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/mobile-rooms.webp",
+      "alt": "mobile 客房真实页面截图",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/mobile-journal.webp",
+      "alt": "mobile 日志真实页面截图",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "surfaceId": "site",
+      "pageSlug": ""
+    },
+    {
+      "src": "assets/mobile-contact.webp",
+      "alt": "mobile 联系真实页面截图",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "surfaceId": "site",
+      "pageSlug": ""
+    }
+  ],
+  "surfaces": [
+    {
+      "id": "site",
+      "name": "湖畔酒店官网",
+      "platform": "pc",
+      "locales": [
+        "zh",
+        "en"
+      ],
+      "pages": [
+        {
+          "slug": "",
+          "title": "首页",
+          "localizedTitles": {
+            "en": "Home"
+          }
+        },
+        {
+          "slug": "about",
+          "title": "关于老宅",
+          "localizedTitles": {
+            "en": "The house"
+          }
+        },
+        {
+          "slug": "room",
+          "title": "客房",
+          "localizedTitles": {
+            "en": "Stay"
+          }
+        },
+        {
+          "slug": "experiences",
+          "title": "体验",
+          "localizedTitles": {
+            "en": "Experiences"
+          }
+        },
+        {
+          "slug": "journal",
+          "title": "湖畔日志",
+          "localizedTitles": {
+            "en": "Journal"
+          }
+        },
+        {
+          "slug": "contact",
+          "title": "联系",
+          "localizedTitles": {
+            "en": "Contact"
+          }
+        },
+        {
+          "slug": "legal",
+          "title": "隐私与条款",
+          "localizedTitles": {
+            "en": "Privacy & terms"
+          }
+        },
+        {
+          "slug": "room/lake-classic-room",
+          "title": "经典湖景客房",
+          "localizedTitles": {
+            "en": "Lake Classic Room"
+          }
+        },
+        {
+          "slug": "room/garden-deluxe-room",
+          "title": "花园豪华客房",
+          "localizedTitles": {
+            "en": "Garden Deluxe Room"
+          }
+        },
+        {
+          "slug": "room/belvedere-junior-suite",
+          "title": "观景小套房",
+          "localizedTitles": {
+            "en": "Belvedere Junior Suite"
+          }
+        },
+        {
+          "slug": "room/terrace-suite",
+          "title": "湖畔露台套房",
+          "localizedTitles": {
+            "en": "Terrace Suite"
+          }
+        },
+        {
+          "slug": "room/villa-cipresso",
+          "title": "柏树花园别墅",
+          "localizedTitles": {
+            "en": "Villa Cipresso"
+          }
+        },
+        {
+          "slug": "room/the-noire-residence",
+          "title": "湖上私邸",
+          "localizedTitles": {
+            "en": "The Lake Residence"
+          }
+        },
+        {
+          "slug": "experiences/lakeside-dinner-at-la-darsena",
+          "title": "水岸餐厅晚餐",
+          "localizedTitles": {
+            "en": "Dinner beside the lake"
+          }
+        },
+        {
+          "slug": "experiences/the-stone-spa-ritual",
+          "title": "温石水疗仪式",
+          "localizedTitles": {
+            "en": "The Stone Spa Ritual"
+          }
+        },
+        {
+          "slug": "experiences/private-boat-to-bellagio",
+          "title": "私船前往贝拉焦",
+          "localizedTitles": {
+            "en": "Bellagio by private boat"
+          }
+        },
+        {
+          "slug": "experiences/morning-hike-to-san-martino",
+          "title": "圣马蒂诺晨间徒步",
+          "localizedTitles": {
+            "en": "A morning at San Martino"
+          }
+        },
+        {
+          "slug": "experiences/wine-cellar-tasting",
+          "title": "古老酒窖品鉴",
+          "localizedTitles": {
+            "en": "An evening in the cellar"
+          }
+        },
+        {
+          "slug": "experiences/silk-workshop-in-como",
+          "title": "科莫丝织工坊",
+          "localizedTitles": {
+            "en": "Inside a Como silk workshop"
+          }
+        },
+        {
+          "slug": "offers/stay-longer",
+          "title": "把假期留长一点",
+          "localizedTitles": {
+            "en": "Make time for a longer stay"
+          }
+        },
+        {
+          "slug": "offers/spring-by-the-lake",
+          "title": "湖畔春日",
+          "localizedTitles": {
+            "en": "A spring escape by the lake"
+          }
+        },
+        {
+          "slug": "offers/the-honeymoon-itinerary",
+          "title": "两个人的蜜月时光",
+          "localizedTitles": {
+            "en": "A honeymoon at your own pace"
+          }
+        },
+        {
+          "slug": "journal/the-silk-merchants-house",
+          "title": "丝绸商人的夏日老宅",
+          "localizedTitles": {
+            "en": "A summer house and its memories"
+          }
+        },
+        {
+          "slug": "journal/the-first-boat-of-the-morning",
+          "title": "清晨的第一班船",
+          "localizedTitles": {
+            "en": "Before the lake wakes"
+          }
+        },
+        {
+          "slug": "journal/tagliatelle-by-hand",
+          "title": "把意面交给双手",
+          "localizedTitles": {
+            "en": "Pasta, made slowly"
+          }
+        },
+        {
+          "slug": "journal/cold-water-warm-stone",
+          "title": "冷泉与温石之间",
+          "localizedTitles": {
+            "en": "The pleasure of a changing temperature"
+          }
+        },
+        {
+          "slug": "journal/three-villages-one-afternoon",
+          "title": "一个午后，三个村庄",
+          "localizedTitles": {
+            "en": "An afternoon around the middle lake"
+          }
+        },
+        {
+          "slug": "journal/what-the-cellar-keeps",
+          "title": "酒窖收藏的季节",
+          "localizedTitles": {
+            "en": "What rests beneath the house"
+          }
+        }
+      ]
+    }
+  ],
+  "license": {
+    "type": "restricted",
+    "file": "docs/LICENSE.md",
+    "summary": "参考素材授权待确认，仅供效果评审。",
+    "redistributionAllowed": false
+  }
+}
